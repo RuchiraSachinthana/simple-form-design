@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+
+	<title>Forms-Activity2 </title>
+</head>
+<body>
+	
+<br><hr><br>
+<form>
+
+	<h1 align="center" style="color: rgb(15, 6, 146); font-family: 'Courier New', Courier, monospace;">  Semester Module selection Form  </h1>
+	
+	
+		<table align="center" >
+
+
+
+	<!---row1--->
+	
+	<tr align="center" style="background-color: rgb(121, 121, 121);">
+	<th colspan="2" style="text-align: center; font-size: 25px; color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Enter Your Correct details </th>
+	</tr>
+	
+<!--Id number raw-->
+
+<tr>
+	<th>
+	<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">Registration No :</label>
+</th>
+	<th><input type="text"></th>
+	</tr>
+
+	<!---row2--->
+	<tr>
+	<th>
+	<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">First Name :</label>
+</th>
+	<th><input type="text"></th>
+	</tr>
+	
+	<!---row3--->
+	<tr>
+	<th>
+		<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">Last Name :</label>
+	</th>
+	<th><input type="text"></th>
+	</tr>
+	
+	<!---row4--->
+	<tr >
+	<th>
+		<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">E mail :</label>
+	</th>
+	<th><input type="email"></th>
+	</tr>
+	
+	<!---row5--->
+	<tr >
+	<th>
+		<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">Mobile No :</label>
+	</th>
+	<th><input type="number"></th>
+	</tr>
+	
+	<!---row6--->
+	<tr >
+	<th>
+		<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">Gender :</label>
+	</th>
+	<th><font color="beige">
+	<input type="radio" name="gender">Male 
+	<input type="radio" name="gender">Female
+	</th>
+	</tr>
+	
+	<!---row7--->
+	<tr >
+	<th>
+		<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">Field</label>
+	</th>
+	<th>
+	<select name="city">
+	<option value="India">Electronics Engineering</option>
+	<option value="South Africa">Mechatronics Engineering</option>
+	<option value="America">Electrical Engineering</option>
+	<option value="Japan">Bio system Engineering</option>
+	</th>
+	</tr>
+
+<!--batch-->
+	<tr >
+		<th>
+			<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">batch :</label>
+		</th>
+		<th><font color="beige">
+		<input type="radio" name="gender">2021 
+		<input type="radio" name="gender">2022
+		<input type="radio" name="gender">2023
+		<input type="radio" name="gender">2024
+		</th>
+		</tr>
+
+
+
+		<!--Sujects-->
+		<tr align="center">
+
+			<!--left subjects-->
+			<th >
+<ul   style="color: beige; list-style: none;  text-align: left;">
+	<li >
+		<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">Power Electronics</label>
+		<input style="align-items: right ;" type="checkbox" id="subjects" name="subjects" value="Modulename">
+	</li>
+
+	<li>
+		<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">Mesurement and Instruementation</label>
+		<input style="align-items: right ;" type="checkbox" id="subjects" name="subjects" value="Modulename">
+	</li>
+
+	<li>
+		<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">Robotics</label>
+		<input style="align-items: right ;" type="checkbox" id="subjects" name="subjects" value="Modulename">
+	</li>
+
+	<li>
+		<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">Power Systems</label>
+		<input style="align-items: right ;" type="checkbox" id="subjects" name="subjects" value="Modulename">
+	</li>
+
+</ul>
+			</th>
+<!--right subjects-->
+			<th >
+				<ul   style="color: beige; list-style: none; text-align: left; ">
+					<li>
+						<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">Scientific Writing</label>
+						<input style="align-items: right ;" type="checkbox" id="subjects" name="subjects" value="Modulename">
+					</li>
+
+
+					<li>
+						<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">Control Systems</label>
+						<input style="align-items: right ;" type="checkbox" id="subjects" name="subjects" value="Modulename">
+					</li>
+
+					<li>
+						<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">Embedded Systems</label>
+						<input style="align-items: right ;" type="checkbox" id="subjects" name="subjects" value="Modulename">
+					</li>
+
+					<li>
+						<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">Digital Systems</label>
+						<input style="align-items: right ;" type="checkbox" id="subjects" name="subjects" value="Modulename">
+					</li>
+
+
+				</ul>
+							</th>
+		</tr>
+
+		
+<!--agree-->
+<tr >
+	<th >
+
+		<input type="radio" id="javascript" name="fav_language" value="JavaScript">
+		<label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: beige;">I agree to the terms of use</label>
+	</th>
+	</tr>
+
+
+
+
+</tr>
+	<!---row8--->
+	<tr align="center" style="background-color:rgb(121, 121, 121) ;">
+	<th colspan="2">
+	<input type="Submit" value="Submit">
+	<input type="reset">
+	</th>
+	</tr>
+	
+	</table>
+	</form>
+<br><hr><br>
+
+<h5>Designed by :-  <a href="https://ruchiras.com" target="_blank"> RUCHIRA</a></h5>
+
+
+
+</body>
+</html>
